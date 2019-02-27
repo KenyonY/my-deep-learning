@@ -246,4 +246,4 @@ j = 0,1,...,n$$
 于是：
 >$$\theta_j \leftarrow \theta_j - \alpha \frac{1}{m} T_j $$
 
-
+# 持续更新中
