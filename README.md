@@ -1,4 +1,4 @@
-# my-machine-learning
+# my-deep-learning
 我的机器学习之路  
 
 [Numpy 中文文档](https://www.numpy.org.cn/article/basics/numpy_matrices_vectors.html)
@@ -116,7 +116,7 @@ $$  \left[
    x_n^{(i)}
   \end{matrix} 
   \right] = y^{(i)} \tag{3}  
-  $$ 
+$$
   $$(i = 1,2,3,...,m)$$
 >这里对于线性拟合，我们只需要求两个参数：$w_0 和 w_1$，而m，即训练样本数。
 >
@@ -171,7 +171,6 @@ X =
    1 & (x^{(m)})^{T}
   \end{matrix} \right]
 $$
-
 后来发现这种表达和西瓜书上一致。
 
 #### 开始求解
@@ -229,7 +228,6 @@ $$
 \vdots \\
 \frac{\partial}{\partial\theta_n}J(\theta) = \frac{1}{m} \sum_{i=1}^{m}(h_\theta (x^{(i)})-y^{i})x_n^{(i)}
 $$
-
 
 迭代公式
 >$$
