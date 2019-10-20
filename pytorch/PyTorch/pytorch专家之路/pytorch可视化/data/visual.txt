@@ -1,0 +1,1 @@
+./data/label0/cat.png 3
