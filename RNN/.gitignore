@@ -1,0 +1,28 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# -------------
+.h5
+.png
+mxnet
+pytorch
+mylogs
+
+data
+# ------------
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# juyter notebook
+.ipynb_checkpoints
+.vscode
+
+
+
+# version 000000000000
